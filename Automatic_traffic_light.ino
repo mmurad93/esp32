@@ -1,6 +1,6 @@
 #define LED1 26  //LED1 connects to GPIO26
 #define LED2 25  //LED2 connects to GPIO25
-#define LED3 33  //LED3 connects to GPIO25
+#define LED3 33  //LED3 connects to GPIO33
 
 void setup() {
   // for serial monitor
