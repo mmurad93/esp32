@@ -1,5 +1,5 @@
-int ledPins[] = {25, 26, 27};
-int btnPins[] = {16, 17, 18};
+int ledPins[] = {25, 26, 27};  //LED 1, 2, 3
+int btnPins[] = {16, 17, 18};  //button 1, 2, 3
 bool b[3];
 
 void setup() {
