@@ -2,6 +2,10 @@
 #include <U8g2lib.h>
 #include <Wire.h>
 
+//--------------I2C 128x64 OLED---------------
+//----21 to SDA
+//----22 to SCL
+
 // This line tells the library exactly which screen and pins to use
 // U8G2_SH1106_128X64_NONAME_F_HW_I2C: SH1106 driver, 128x64, Full buffer, Hardware I2C
 U8G2_SH1106_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0, /* reset=*/ U8X8_PIN_NONE);
