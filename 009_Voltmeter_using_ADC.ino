@@ -6,6 +6,8 @@ const int led4 = 18;
 const int led5 = 19;
 int potValue = 0;
 
+//--------------Indicates different level of voltage using LEDs-----------------
+
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(115200);
@@ -47,5 +49,5 @@ void loop() {
   }
   else digitalWrite(led1, LOW);
   
-  delay(500); // this speeds up the simulation
+  delay(50); // this speeds up the simulation
 }
